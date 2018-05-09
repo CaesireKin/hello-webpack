@@ -1,0 +1,19 @@
+/* 由于我没有字体，所以这里就抄一下示例，脑补一下好了，以后也许找到了我喜欢的，会补上 */
+/* @font-face {
+    font-family: 'Courier New', Courier, monospace;
+    src: url('path-to-font') format('font'),
+        url('path-to-font-2') format('font2');
+    font-weight: weight;
+    font-style: normal;
+} */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    color: red;
+    background: url('../imgs/logo.png');
+    /* font-family: '在@font-face::format中定义的那些字体' */;
+}
